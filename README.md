@@ -8,10 +8,10 @@ IT-Blog is an educational blog project with a full-fledged user, article, and co
 
 ### 👥 Users and Roles
 
-- **User ** — can read articles and leave comments
-- **Author ** — can create articles, edit them, and submit them for moderation
-- **Moderator ** — can approve or reject articles with a comment
-- **Administrator ** — full access: user management, role management, banning
+- **User** — can read articles and leave comments
+- **Author** — can create articles, edit them, and submit them for moderation
+- **Moderator** — can approve or reject articles with a comment
+- **Administrator** — full access: user management, role management, banning
 
 ### 📝 Articles
 
