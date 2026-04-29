@@ -44,7 +44,7 @@ IT-Blog is an educational blog project with a full-fledged user, article, and co
 
 | Technology | Purpose |
 |------------|---------|
-| Laravel 10 | Main PHP framework |
+| Laravel 12 | Main PHP framework |
 | MySQL | Relational database |
 | Tailwind CSS | Modern UI styling |
 | Alpine.js | Lightweight client-side interactivity |
