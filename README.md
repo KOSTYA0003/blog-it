@@ -71,7 +71,7 @@ IT-Blog is an educational blog project with a full-fledged user, article, and co
 ## 📦 Installation and Setup (Docker)
 This is the recommended way to run the project. No local PHP/MySQL installation is required.
 
-    1. Clone the project and set up the environment:
+1. Clone the project and set up the environment:
 
 ```bash
     git clone https://github.com/KOSTYA0003/blog-it.git
@@ -85,15 +85,15 @@ This is the recommended way to run the project. No local PHP/MySQL installation 
     cp .env.example .env # For Windows CMD use: copy .env.example .env
 ```
 
-    Make sure the database settings in .env match Docker: DB_HOST=db, DB_PASSWORD=root
+Make sure the database settings in .env match Docker: DB_HOST=db, DB_PASSWORD=root
 
-    2. Start the containers:
+2. Start the containers:
 
 ```bash
     docker-compose up -d --build
 ```
 
-    3. Install dependencies and configure the application:
+3. Install dependencies and configure the application:
 
 ```bash
     docker exec -it it-blog-app composer install
@@ -111,7 +111,7 @@ This is the recommended way to run the project. No local PHP/MySQL installation 
     docker exec -it it-blog-app npm run build
 ```
 
-    4. Run migrations and seed the database:
+4. Run migrations and seed the database:
 
 ```bash
     docker exec -it it-blog-app php artisan migrate:fresh --seed
